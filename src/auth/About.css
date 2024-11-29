@@ -1,0 +1,200 @@
+.mine .champs-texte1{
+    display: flex;
+    width: Hug (182px)px;
+    height: Hug (24px)px;
+    gap: 8px;
+    opacity: 0px;
+    
+}
+.mine .champs-texte1 .champs2{
+    background-color: #07689F;
+    color: #FFFFFF; 
+    width: 24px;
+    height: 24px;
+}
+.mine .champs-texte1 .champs{
+    width: 156px;
+    height: 22px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.minee{
+    display: flex;
+    width: Hug (1,199px)px;
+    height: Hug (125px)px;
+    top: 351px;
+    left: 13px;
+    gap: 98px;
+    opacity: 0px;
+
+}
+.mins{
+    margin-left: 100px;
+  width: 1374px;
+  height: 500px;
+  top: 258px;
+  left: 109px;
+  gap: 10px;
+  border-radius: 8px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  background: #FFFFFF;
+  border: 1px solid #D9D9D9;
+
+}
+.mins .min h1{
+    width: 1192px;
+    /* height: 215px; */
+    top: 32px;
+    left: 16px;
+    gap: 0px;
+    opacity: 0px;
+    color: #07689F;
+}
+.joms{
+    display: flex;
+    gap: 100px;
+    margin-left: 100px;
+}
+.joms .jom{
+    width: 600px;
+    height: 280px;
+    top: 806px;
+    left: 108px;
+    padding: 16px 16px 101px 16px;
+    gap: 10px;
+    border-radius: 8px 0px 0px 0px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9
+
+}
+.joms .jom1{
+    width: 600px;
+    height: 280px;
+    top: 806px;
+    left: 108px;
+    padding: 16px 16px 101px 16px;
+    gap: 10px;
+    border-radius: 8px 0px 0px 0px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    background: #EFEFEF;
+    border: 2px solid #D9D9D9
+
+}
+.joms .jom1 h1{
+    color: #07689F;
+}
+.joms .jom h1{
+    color: #07689F;
+}
+.joms .jom p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;  
+}
+.joms .jum .champs-texte1{
+    display: flex;
+}
+.mine1 .champs-texte1 .champs22{
+    color: #07689F;
+    width: 24px;
+    height: 24px;
+}
+.mine1 .champs-texte1{
+   display: flex;
+   width: 800px;
+   gap: 16px;
+   font-family: Poppins;
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 24px;
+   text-align: left;
+   text-underline-position: from-font;
+   text-decoration-skip-ink: none;
+
+}
+.mine1 p{
+   color: #07689F;
+}
+.mine1 .ton h2{
+    /* width: 122px;
+    height: 90px;
+    left: -1px; */
+    color: #A6A6A6;
+
+}
+.mine0 .champs-texte1{
+    display: flex;
+    /* gap: 8px; */
+}
+.mine0 .champs-texte1 .champs{
+    width: 122px;
+    height: 90px;
+    left: -1px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 89.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #A6A6A6;
+}
+.mine0 .champs-texte1 .champs22{
+    width: 122px;
+    height: 90px;
+    left: -1px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 89.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #A6A6A6;
+}
+.mine0 p{
+    color: #A6A6A6;  
+}
+.mine0 button{
+    /* width: Fixed (176px)px;
+    height: Fixed (40px)px; */
+    padding: 8px 16px 8px 16px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #07689F;
+    color: #FFFFFF;
+
+}
+.serve{
+    display: flex;
+    width: Hug (1,120.88px)px;
+    height: Hug (123.88px)px;
+    top: 15px;
+    left: 52px;
+    gap: 130px;
+    opacity: 0.7px;
+    margin-left: 60px;
+}
+
+.serves{
+     margin-left: 100px;
+}

@@ -1,0 +1,667 @@
+.places .place{
+    display: flex;
+    width: Hug (1,224px)px;
+    height: Hug (183px)px;
+    top: 210px;
+    left: 108px;
+    gap: 190px;
+    opacity: 0px;
+    list-style: none;
+
+}
+.places .champs-texte11{
+    display: flex;
+    margin-left: 25px;
+    width: Fixed (232px)px;
+    height: Hug (24px)px;
+    gap: 8px;
+    opacity: 0px;
+}
+.places .tous{
+    display: flex;
+    /* gap: 8px; */
+}
+.places .placee{
+    display: flex;
+    /* gap: 10px; */
+    margin-left: 35px;
+}
+.places{
+    margin-left: 40px;
+}
+.places h1{
+    color: #07689F;
+    margin-left: 35px;
+}
+.places p{
+    color: #07689F;
+    margin-left: 35px;
+}
+.places .champs-texte12{
+    display: flex;
+    margin-left: 25px;
+    width: 160px;
+    height: Hug (24px)px;
+    gap: 24px;
+    opacity: 0px;
+}
+.places .plas1{
+    width: Fixed (175px)px;
+    height: Hug (56px)px;
+    padding: 16px 0px 0px 0px;
+    gap: 0px;
+    border: 2px 0px 0px 0px;
+    justify-content: space-between;
+    opacity: 0px;
+    border: 2px solid #D9D9D9
+
+}
+.places .champs-texte14{
+    display: flex;
+    margin-left: 25px;
+    width: Fill (261px)px;
+    height: Hug (24px)px;
+    gap: 8px;
+    opacity: 0px;
+
+}
+.places .plas3{
+    width: 243px;
+    height: Fixed (56px)px;
+    padding: 16px 0px 0px 0px;
+    gap: 32px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    border: 2px solid #D9D9D9;
+
+}
+.places .plas{
+    width: 200px;
+    height: Fixed (56px)px;
+    padding: 16px 0px 0px 0px;
+    gap: 8px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    border: 2px solid #D9D9D9;
+
+}
+.places .champs-texte15{
+    display: flex;
+    margin-left: 25px;
+    width: 190px;
+    height: Hug (24px)px;
+    gap: 8px;
+    opacity: 0px;
+
+}
+.places .plas2{
+    width: Fixed (350px)px;
+    height: Hug (56px)px;
+    padding: 16px 0px 0px 0px;
+    gap: 0px;
+    border: 2px 0px 0px 0px;
+    justify-content: space-between;
+    opacity: 0px;
+    border: 2px solid #D9D9D9;
+
+}
+.places .placee button{
+    width: 182px;
+    height: Fixed (56px)px;
+    padding: 10px 0px 0px 0px;
+    gap: 10px;
+    border-radius: 0px 4px 4px 0px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #07689F;
+    color: #FFFFFF;
+    border: 2px solid #07689F
+
+}
+.jumboos .champs-texte14{
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+
+}
+.jumboos .jumboo1{
+    width: 150px;
+    height: Fixed (32px)px;
+    padding: 8px 16px 8px 16px;
+    gap: 16px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #07689F;
+    color: #FFFFFF;
+    border: 2px solid #D9D9D9; 
+    margin-left: 590px;
+}
+.jumboos .jumboo h1{
+    width: 352px;
+    height: 56px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    margin-left: 550px;
+        
+}
+
+.jumboos .jumboot{
+    width: 833px;
+    height: 77px;
+    top: 487px;
+    left: 354px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 76.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding: 170px;
+    margin-left: 220px;
+}
+.jumboos .jumboots{
+    display: flex;
+    gap: 4px;
+    color: #07689F;
+    margin-left: 90px;
+}
+.jumboos .jumboot1{
+    width: Fixed (250px)px;
+    height: Fixed (64px)px;
+    padding: 8px 16px 8px 16px;
+    gap: 10px;
+    border-radius: 4px 4px 0px 0px;
+    opacity: 0px; 
+    background-color: #FFFFFF;   
+    border: 1px solid #07689F;   
+}
+.jumboos .jumboot1 p{
+    width: 237px;
+    height: 34px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33.6px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.jumboos .jumboot2 p{
+    width: 228px;
+    height: 22px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22.4px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.jumboos .jumboot2{
+    width: Fixed (240px)px;
+    height: Fixed (48px)px;
+    padding: 16px 0px 0px 0px;
+    gap: 10px;
+    border-radius: 4px 4px 0px 0px;
+    opacity: 0px;
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9;   
+}
+.jumboos .jumboot3 p{
+    width: 228px;
+    height: 22px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.jumboos .jumboot3{
+    width: Fixed (240px)px;
+    height: Fixed (48px)px;
+    padding: 16px 0px 0px 0px;
+    gap: 10px;
+    border-radius: 4px 4px 0px 0px;
+    opacity: 0px;
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9;   
+}
+.jumboos .jumboot4 p{
+    width: 228px;
+    height: 22px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.jumboos .jumboot4{
+    width: Fixed (240px)px;
+    height: Fixed (48px)px;
+    padding: 16px 0px 0px 0px;
+    gap: 10px;
+    border-radius: 4px 4px 0px 0px;
+    opacity: 0px;
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9;   
+}
+.jumboos .jumboot5 p{
+    width: 228px;
+    height: 22px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.jumboos .jumboot5{
+    width: Fixed (240px)px;
+    height: Fixed (48px)px;
+    padding: 16px 0px 0px 0px;
+    gap: 10px;
+    border-radius: 4px 4px 0px 0px;
+    opacity: 0px;
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9;   
+}
+.jumboos{
+        background: url("./src/assets/reserve.jpg ") no-repeat black bottom center;
+        color: white;
+        padding-top: 200px;
+        background-size: cover;
+        width: 100%;
+        height: 664px;
+        top: 441px;
+        gap: 0px;
+        opacity: 0px;  
+}
+.maits .mait{
+    display: flex;
+    gap: 16px;
+    
+}
+.maits .mait .mait1 h3{
+    width: 125px;
+    height: 22px;
+    gap: 0px;
+    opacity: 0px;   
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;   
+}
+
+.maits .mait .mait1 p{
+    width: 109px;
+    height: 14px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 14px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.maits .mait .mait1 {
+    width: Fill (125px)px;
+    height: Hug (40px)px;
+    gap: 4px;
+    opacity: 0px;
+
+}
+.maits .maits1{
+    width: 273px;
+    height: 140px;
+    top: 78px;
+    left: 859px;
+    gap: 0px;
+    opacity: 0px;
+    color: #000000;
+    background-color: #FFFFFF;
+    border: 1px solid #D9D9D9;  
+}
+.maits .maitss{
+    display: flex;
+    gap: 200px;
+    margin-left: 160px;
+}
+.maits .maitss1{
+    display: flex;
+    gap: 200px;
+    margin-left: 20px;
+}
+.maits .maitss2{
+    margin-left: 380px;
+}
+
+.maits{
+    background: url("./src/assets/carte.png ") no-repeat black bottom center;
+    color: white;
+    padding-top: 200px;
+    background-size: cover;
+    width: 85%; 
+    padding: 20px;
+    margin-left: 90px;
+}
+.reserves .champs-texte1{
+   display: flex;
+   gap: 10px;
+   margin-left: 7px;
+   color: #FFFFFF;
+}
+.reserves .reserve1{
+    width: 160px;
+    height: 25px;
+    top: 224px;
+    left: 16px;
+    padding: 8px 16px 8px 16px;
+    gap: 16px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    margin: 18px;
+    border: 1px solid #D9D9D9; 
+    background-color: #07689F;
+}
+.reserves .reserve2{
+    width: 200px;
+    height: 25px;
+    top: 224px;
+    left: 16px;
+    padding: 8px 16px 8px 16px;
+    gap: 16px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #D9D9D9; 
+    background-color: #07689F;
+}   
+.reserves .reserve3{
+    width: 180px;
+    height: 25px;
+    top: 224px;
+    left: 16px;
+    padding: 8px 16px 8px 16px;
+    gap: 16px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    margin: 18px;
+    border: 1px solid #D9D9D9; 
+    background-color: #07689F;
+
+}
+.reserves{
+    display: flex;
+    width: 88%;
+    height: Hug (643px)px;
+    top: 1651px;
+    left: 108px;
+    gap: 24px;
+    opacity: 0px;
+    margin-left: 79px;
+
+}
+.reservess{
+    background: url("./src/assets/pexelphoto.jpg ") no-repeat black bottom center;
+    color: white;
+    padding-top: 200px;
+    background-size: cover;
+    width: 300px;
+    height: 113px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+}
+.reservess1{
+    background: url("./src/assets/pexelphoto2.jpg ") no-repeat black bottom center;
+    color: white;
+    padding-top: 200px;
+    background-size: cover;
+    width: 592px;
+    height: 75px;
+    padding: 224px 328px 16px 16px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.reservess2{
+    background: url("./src/assets/pexelphoto4.jpg ") no-repeat black bottom center;
+    color: white;
+    padding-top: 200px;
+    background-size: cover;
+    width: 300px;
+    height: 113px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;  
+}
+.reserv{
+    width: 353px;
+    height: 35px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 70px;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 44.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.reservess4{
+    background: url("./src/assets/pexelphoto11.jpg ") no-repeat black bottom center;
+    color: white;
+    padding-top: 200px;
+    background-size: cover;
+    width: 300px;
+    height: 113px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+}
+.reservess5{
+    background: url("./src/assets/pexelphoto3.jpg ") no-repeat black bottom center;
+    color: white;
+    padding-top: 200px;
+    background-size: cover;
+    width: 592px;
+    height: 75px;
+    padding: 224px 328px 16px 16px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.reservess6{
+    background: url("./src/assets/pexelphoto8.jpg ") no-repeat black bottom center;
+    color: white;
+    padding-top: 200px;
+    background-size: cover;
+    width: 300px;
+    height: 113px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;  
+}
+.make{
+    display: flex;
+    gap: 40px;
+    width: 93%;
+    
+}
+.makes .makee{
+   /* margin: 20px; */
+   padding: 40px;
+}
+.makes{
+    margin-left: 75px;
+}
+.makes .make1{
+    background: url("./src/assets/pexelphoto10.jpg ") no-repeat black bottom center;
+    color: white;
+    padding-top: 200px;
+    background-size: cover; 
+    width: 573px;
+    height: 120px;
+    /* padding: 16px 0px 0px 0px; */
+    gap: 10px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+
+}
+.makes .make2{
+    background: url("./src/assets/Rectangle 3.png ") no-repeat black bottom center;
+    color: white;
+    padding-top: 200px;
+    background-size: cover; 
+    width: 631px;
+    height: 120px;
+    /* padding: 16px 0px 0px 0px; */
+    gap: 10px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+
+}
+.elementss{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    width: Hug (956px)px;
+    height: Hug (290px)px;
+    top: 60px;
+    left: 243px;
+    gap: 100px;
+    opacity: 0px;
+    margin-left: 170px;
+
+ }
+  .element0 .img{
+    width: 120px;
+    height: 80px;
+   margin-left: 70px;
+  }
+
+ .elementss .element00{
+    width: Hug (252px)px;
+    height: Hug (216px)px;
+    top: 74px;
+    padding: 60px 32px 32px 32px;
+    gap: 10px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #FFFFFF;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+linear-gradient(0deg, rgba(0, 0, 0, 0.5) 17.36%, rgba(0, 0, 0, 0) 92.82%);
+
+ }
+ .elementss .element01{
+    width: Hug (252px)px;
+    height: 175px;
+    top: 74px;
+    padding: 60px 32px 32px 32px;
+    gap: 10px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #FFFFFF;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+linear-gradient(0deg, rgba(0, 0, 0, 0.5) 17.36%, rgba(0, 0, 0, 0) 92.82%);
+
+ }
+ .elemens{
+    background: url("./src/assets/pexelphoto7.jpg ") no-repeat black bottom center;
+    color: white;
+    padding-top: 200px;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    top: 441px;
+    gap: 0px;
+    opacity: 0px; 
+    
+   
+
+ }
+ .makes .make3{
+    background: url("./src/assets/pexelphoto12.jpg ") no-repeat black bottom center;
+    color: white;
+    padding-top: 200px;
+    background-size: cover; 
+    width: 573px;
+    height: 120px;
+    /* padding: 16px 0px 0px 0px; */
+    gap: 10px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+
+}
+.makes .make4{
+    background: url("./src/assets/pexelphoto9.jpg ") no-repeat black bottom center;
+    color: white;
+    padding-top: 200px;
+    background-size: cover; 
+    width: 631px;
+    height: 120px;
+    /* padding: 16px 0px 0px 0px; */
+    gap: 10px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+
+}
+.makes .make5{
+    background: url("./src/assets/pexelphoto2.jpg ") no-repeat black bottom center;
+    color: white;
+    padding-top: 200px;
+    background-size: cover; 
+    width: 573px;
+    height: 120px;
+    /* padding: 16px 0px 0px 0px; */
+    gap: 10px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+
+}
+.makes .make6{
+    background: url("./src/assets/pexelphoto13.jpg ") no-repeat black bottom center;
+    color: white;
+    padding-top: 200px;
+    background-size: cover; 
+    width: 631px;
+    height: 120px;
+    /* padding: 16px 0px 0px 0px; */
+    gap: 10px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+
+}

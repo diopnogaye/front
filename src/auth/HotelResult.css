@@ -1,0 +1,387 @@
+.results .champs-texte14{
+    display: flex;
+    gap: 20px;
+} 
+.results .resulte{
+    width: 269px;
+    height: Hug (40px)px;
+    padding: 8px 0px 0px 0px;
+    gap: 8px;
+    border-radius: 4px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #FFFFFF;
+    border: 1px solid #D9D9D9
+}
+.results .champs-texte14 .champs{
+    width: 221px;
+    height: 22px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.results{
+    display: flex;
+    gap: 50px;
+    margin-left: 70px;
+}
+.result{
+    width: Hug (648px)px;
+    height: Hug (197px)px;
+    gap: 24px;
+    opacity: 0px;
+
+}
+.results .resultee img{
+    width: 252px;
+    height: 195px;
+    gap: 0px;
+    opacity: 0px;
+}
+.results .resulte1{
+    width: Hug (129px)px;
+    height: Hug (44px)px;
+    gap: 2px;
+    opacity: 0px;
+}
+.results .resulte1 h1{
+    width: 129px;
+    height: 28px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #565656;
+}
+.filters .champs-texte14{
+    display: flex;
+    gap: 4px;
+    margin-left: 15px;
+}
+.filters .champs-texte14 .champs{
+    width: 54px;
+    height: 18px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #A6A6A6;
+}
+
+.filters .champs-texte14 .champs0{
+    width: 16px;
+    height: 16px;
+    gap: 0px;
+    opacity: 0px;
+    color: #A6A6A6;
+
+}
+
+.filters .filter{
+    width: 106px;
+    height: Hug (34px)px;
+    max-width: 152px;
+    padding: 8px 16px 8px 16px;
+    gap: 4px;
+    border-radius: 4px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #A6A6A6
+}
+.filters .filter1{
+    display: flex;
+    gap: 16px;
+}
+.filters .filte{
+    width: 147px;
+    height: 18px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #565656;
+}
+.filters .filte .champs-texte{
+    display: flex;
+    width: Fill (171px)px;
+    height: Hug (16px)px;
+    gap: 4px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #07689F;
+    margin-left: 5px;
+
+}
+.jumbos1 .jumms{
+    display: flex;
+}
+.jumbos1 .rows1 .champs-texte1{
+    display: flex;
+    gap: 8px;
+
+}
+.jumbos1 .rows1 .champs-texte0{
+    display: flex;
+    gap: 24px;
+}
+.jumbos1 .rows1 .champs-texte0 .champs{
+    width: 62px;
+    height: 21px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #E5062E;
+} 
+.jumbos1 .rows1 .champs-texte0 .champs2{
+    width: 62px;
+    height: 28px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #4C9839;
+}
+.jumbos1 .rows1 p{
+    width: 173px;
+    height: 17px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #565656;
+
+}
+.jumbos1 .rows1 .champs-texte1 .champs3{
+    width: 121px;
+    height: 14px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #4C9839;
+}
+.jumbos1 .rows1 .champs-texte1 .champs2{
+    width: 132px;
+    height: 14px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #E5062E;
+}
+.jumbos1 .rows .champs-texte1{
+   font-family: Poppins;
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 16.8px;
+   text-align: left;
+   text-underline-position: from-font;
+   text-decoration-skip-ink: none;
+   color: #565656;
+}
+.jumbos1 .rows .jumms1{
+    width: 185px;
+    height: 17px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #A6A6A6;
+    margin-left: 10px;
+}
+
+.jumbos1 .rows .jumms2{
+    width: 304.5px;
+    height: 17px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #565656;
+    margin-left: 10px;
+
+
+}
+.jumbos1 .rows .champs-texte2{
+    display: flex;
+    gap: 16px;
+    margin-left: 30px;
+}
+.jumbos1 .rows .champs-texte2 .champs{
+    width: 152px;
+    height: 20px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 19.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.jum{
+    display: flex;
+    gap: 24px;
+}
+.jumbos1 .rows1{
+    padding: 123px;
+}
+.jumbos1 .jum{
+    width: 865px;
+    height: 286px;
+    padding: 8px 0px 0px 0px;
+    gap: 8px;
+    border-radius: 8px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #FFFFFF;
+    border: 1px solid #D9D9D9;
+
+}
+.jumbos1  image{
+    margin-left: 10px;
+    width: Fixed (200px)px;
+    height: Hug (240px)px;
+    min-width: 200px;
+    gap: 152px;
+    border-radius: 4px 0px 0px 4px;
+    opacity: 0px;
+
+}
+.jumbos1 .jum img{
+    margin-left: 10px;
+}
+.travs .travelss0 .champs-texte1{
+    display: flex;
+    gap: 16px;
+    margin-left: 40px;
+}
+.travs .travelss0{
+    width: 290px;
+    height: Fixed (48px)px;
+    padding: 8px 16px 8px 16px;
+    gap: 16px;
+    border-radius: 4px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #FFFFFF;
+    color: #07689F;
+    border: 1px solid #07689F
+}
+
+.travs .travelss00 .champs-texte{
+    display: flex;
+    gap: 16px;
+    margin-left: 40px;
+}
+.travs .travelss00{
+    width: 290px;
+    height: Fixed (48px)px;
+    padding: 8px 16px 8px 16px;
+    gap: 16px;
+    border-radius: 4px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #07689F;
+    color: #FFFFFF;
+    border: 1px solid #07689F
+}
+.travs{
+    display: flex;
+    gap: 220px;
+}
+.filters{
+    display: flex;
+    gap: 40px;
+    margin-left: 60px;
+    width: 1219px;
+    height: 1476px;
+    opacity: 0px;
+
+}
+

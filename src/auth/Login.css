@@ -1,0 +1,192 @@
+.container {
+    margin: auto;
+    width: 80%;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    padding: 20px;
+}
+
+.barre-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.barre-navigation li{
+    list-style: none;
+}
+
+.blog-formulaire .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 713px;
+    top: 208px;
+    left: 188px;
+    border-radius: 16px;
+    border: 1px;
+    background-color: #A6A6A6;  
+}
+.reseaux-sociaux-login  li{
+    list-style: none;
+}
+
+.blog-formulaire .container .image-login{
+    display: flex;
+    width: 416px;
+    height: 609px;
+    top: 52px;
+    left: 52px;
+    border-radius: 8px;
+    /* margin-left: 20px; */
+    padding: 50px;
+    border-radius: 15px;
+}
+.formulaires ul{
+    display: flex;
+    width: 176px;
+    height: 48px;
+    border-radius: 4px;
+    gap: 16px;
+    margin-left: 70px;
+}
+.formulaires .champs-texte{
+    display: flex;
+    width: 393px;
+    height: 24px;
+    gap: 134px;
+}
+.formulaires .champs-texte1{
+    display: flex;
+    width: 393px;
+    height: 24px; 
+    margin-left: 25px;
+}
+.formulaires .champs-texte .champs1{
+    color: #07689F;
+    width: 128px;
+    height: 21px;
+}
+.formulaires .champs-texte1 .champs2{
+    color: #07689F;
+}
+.formulaires .champs-texte1 .champs3{
+    color: #050606;
+}
+.formulaires button{
+    background-color:#07689f;
+    color: #fff;
+    width: 370px;
+    height: 48px;
+    border-radius: 4px;
+    border: 0.5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    gap: 32;
+}
+
+.champ input{
+    width: 360px;
+    height: 48px;
+    border-radius: 4px;
+    border: 0.5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    gap: 32;
+    color: #FFFFFF;
+}
+.champp input{
+    display: flex;
+   width: 140px;
+   height: 30px;
+   top: 29px;
+   border-radius: 4px;
+   border: 0.5px;
+   padding: 8px;
+   gap: 32px;
+}
+
+.icone-reseaux-sociaux li {
+    list-style: none;
+}
+
+.texte {
+    margin-left: 190px;
+    width: 29.55px;
+    height: 21.96;
+    left: 180.72px;
+    color: #000000;
+}
+.formulaires{
+    width: 393px;
+    height: 483px;
+    top: 115px;
+    left: 543px;
+    padding: 20px; 
+}
+
+.incorrect .champ {
+    color: #A80102;
+}
+.incorrect input{
+   color: #A80102;
+}
+.formulaires1{
+    width: 393px;
+    height: 483px;
+    top: 115px;
+    left: 543px;   
+}
+.formulaires1 ul{
+    display: flex;
+    width: 176px;
+    height: 48px;
+    border-radius: 4px;
+    gap: 16px;
+    margin-left: 70px;
+}
+.formulaires1 .champs-texte{
+    display: flex;
+    width: 393px;
+    height: 24px;
+    gap: 134px;
+}
+.formulaires1 .champs-texte1{
+    display: flex;
+    width: 393px;
+    height: 24px; 
+    margin-left: 80px;
+}
+.formulaires1 .champs-texte .champs1{
+    color: #07689F;
+    width: 128px;
+    height: 21px;
+}
+.formulaires1 .champs-texte1 .champs2{
+    color: #07689F;
+}
+.formulaires1 .champs-texte1 .champs3{
+    color: #050606;
+}
+.formulaires1 button{
+    background-color:#07689f;
+    color: #fff;
+    width: 370px;
+    height: 48px;
+    border-radius: 4px;
+    border: 0.5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    gap: 32;
+}
+.champp{
+    display: flex;
+    gap: 64px;
+}
+

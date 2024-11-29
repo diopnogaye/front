@@ -1,0 +1,136 @@
+/* .jumbo {
+    background: url('../image/bus.webp') no-repeat black bottom center;
+    color: white;
+    padding-top: 200px;
+    background-size: cover;
+} */
+
+.row .image-wifia{
+   width: 1380px;
+   height: 700px;
+   top: 210px;
+}
+.rov{
+    display: flex;
+ }
+.rows .champs-texte1{
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+   
+}
+.rows .champs-texte1 .champs2{
+    color: #E5062E;
+}
+.rows .champs-texte1 .champs3{
+   color: #4C9839;
+}
+
+.jumbos .jum{
+    display: flex;
+    background-color: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    
+
+} 
+.jumboss .jum{
+    display: flex;
+    gap: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+}
+.rows p{
+    margin-left: 20px;
+}
+.rows h1{
+    margin-left: 20px;
+}
+.rows h2{
+    margin-left: 20px;
+    color: #07689F;
+}
+.jum .image{
+    width: 186.5px;
+    height:275px ;
+}
+.jumbos{
+   display: flex; 
+   grid-template-columns: repeat(3, 1fr);
+   gap: 15px;
+   margin-left: 65px;
+}
+.jumboss{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-left: 65px;
+}
+.rowss .champs-texte11 img{
+    padding: 20px;
+}
+.rowss{
+    display: flex;
+    gap: 40px;
+    margin-left: 20px
+} 
+.rowss .champs-texte11{
+    display: flex;
+    /* gap: 10px; */
+    margin-left: 50px;
+    background-color: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+}
+.maine h1{
+    margin-left:70px ;
+}
+.maine p{
+    margin-left:70px ;
+}
+.maine button{
+   background-color: #07689F;
+   color: #fff;
+   width: 189px;
+   height: 40px;
+   margin-left: 70px;
+}
+.oumi{
+    margin-left: 70px;
+    background-color: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    width: 100%;
+
+}
+.champs-texte111{
+    display: flex;
+    /* gap: 5px; */
+    margin-left: 20px;
+    color: #07689F;
+    
+}
+.champs-texte111 .champs{
+width: 132px;
+height: 22px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 700;
+line-height: 22.4px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+}
+.champs-texte111 .champs2{
+   padding: 3px;
+}
+
+
+
+
+ 

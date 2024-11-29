@@ -1,0 +1,370 @@
+.places1 .place{
+    display: flex;
+    width: Hug (1,224px)px;
+    height: Hug (183px)px;
+    top: 210px;
+    left: 108px;
+    gap: 190px;
+    opacity: 0px;
+    list-style: none;
+
+}
+.places1 .champs-texte11{
+    display: flex;
+    margin-left: 25px;
+    width: Fixed (232px)px;
+    height: Hug (24px)px;
+    gap: 8px;
+    opacity: 0px;
+}
+.places1 .tous{
+    display: flex;
+    /* gap: 8px; */
+}
+.places1 .placee{
+    display: flex;
+    /* gap: 10px; */
+    margin-left: 35px;
+}
+.places1{
+    margin-left: 40px;
+}
+.places1 h1{
+    color: #07689F;
+    margin-left: 35px;
+}
+.places1 p{
+    color: #07689F;
+    margin-left: 35px;
+}
+.places1 .champs-texte12{
+    display: flex;
+    margin-left: 20px;
+    width: 160px;
+    height: Hug (24px)px;
+    gap: 24px;
+    opacity: 0px;
+}
+.places1 .plas1{
+    width: Fixed (175px)px;
+    height: Hug (56px)px;
+    padding: 16px 0px 0px 0px;
+    gap: 0px;
+    border: 2px 0px 0px 0px;
+    justify-content: space-between;
+    opacity: 0px;
+    border: 2px solid #D9D9D9
+
+}
+.places1 .champs-texte14{
+    display: flex;
+    margin-left: 20px;
+    width: Fill (261px)px;
+    height: Hug (24px)px;
+    gap: 8px;
+    opacity: 0px;
+
+}
+.places1 .plas3{
+    width: 243px;
+    height: Fixed (56px)px;
+    padding: 16px 0px 0px 0px;
+    gap: 32px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    border: 2px solid #D9D9D9;
+
+}
+.places1 .plas{
+    width: 200px;
+    height: Fixed (56px)px;
+    padding: 16px 0px 0px 0px;
+    gap: 8px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    border: 2px solid #D9D9D9;
+
+}
+.places1 .champs-texte15{
+    display: flex;
+    margin-left: 25px;
+    width: 190px;
+    height: Hug (24px)px;
+    gap: 8px;
+    opacity: 0px;
+
+}
+.places1 .plas2{
+    width: 390px;
+    height: Hug (56px)px;
+    padding: 16px 0px 0px 0px;
+    gap: 0px;
+    border: 2px 0px 0px 0px;
+    justify-content: space-between;
+    opacity: 0px;
+    border: 2px solid #D9D9D9;
+
+}
+.places1 .placee button{
+    width: 182px;
+    height: Fixed (56px)px;
+    padding: 10px 0px 0px 0px;
+    gap: 10px;
+    border-radius: 0px 4px 4px 0px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #07689F;
+    color: #FFFFFF;
+    border: 2px solid #07689F
+
+}
+.travels{
+    background: url("./src/assets/kho.jpg ") no-repeat black bottom center;
+        color: white;
+        padding-top: 200px;
+        background-size: cover;
+        width: 100%;
+        height: 664px;
+        top: 441px;
+        gap: 0px;
+        opacity: 0px;
+
+}
+.travels .travel h1{
+    width: 440px;
+    height: 186px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 61.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-left: 90px;
+}
+.travels .travel p{
+    margin-left: 90px;
+}
+.travelss .champs-texte1{
+    display: flex;
+    width: Fixed (1,224px)px;
+    height: Hug (83px)px;
+    top: 896px;
+    left: 108px;
+    gap: 16px;
+    opacity: 0px;
+}
+.travelss{
+    margin-left: 95px;
+   
+
+}
+.travelss .champs-texte1 button{
+    width: 184px;
+    height: Fixed (48px)px;
+    padding: 8px 16px 8px 16px;
+    gap: 16px;
+    border-radius: 4px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    color: #07689F;
+    background-color: #FFFFFF;
+    border: 2px solid #07689F; 
+}
+.travelss .champs-texte1 .champs{
+    width: 1008px;
+    height: 39px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.maits11 .mait{
+    display: flex;
+    gap: 16px;
+    
+}
+.maits11 .mait .mait1 h3{
+    width: 125px;
+    height: 22px;
+    gap: 0px;
+    opacity: 0px;   
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;   
+}
+.maits11 .mait .mait1 p{
+    width: 109px;
+    height: 14px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 14px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.maits11 .mait .mait1 {
+    width: Fill (109px)px;
+    height: Hug (40px)px;
+    gap: 4px;
+    opacity: 0px;
+}
+.maits11 .maits1{
+    width: 273px;
+    height: 140px;
+    top: 78px;
+    left: 859px;
+    gap: 0px;
+    opacity: 0px;
+    color: #000000;
+    background-color: #FFFFFF;
+    border: 1px solid #D9D9D9;  
+}
+.maits11 .maitss{
+    display: flex;
+    gap: 140px;
+    margin-left: 80px;
+}
+.maits11 .maitss1{
+    display: flex;
+    gap: 200px;
+    margin-left: 350px;
+}
+.maits11 .maitss2{
+    margin-left: 680px;
+}
+
+.maits11{
+    background: url("./src/assets/carte.png ") no-repeat black bottom center;
+    color: white;
+    padding-top: 200px;
+    background-size: cover;
+    width: 100%; 
+    padding: 20px;
+}
+.tourismes h1{
+    width: 247px;
+    height: 47px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.tourismes p{
+    width: 357px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #07689F;
+}
+.tourismes .champs-texte1{
+    display: flex;
+    width: Fixed (1,224px)px;
+    height: Hug (48px)px;
+    gap: 310px;
+
+}
+.tourismes {
+    margin-left: 90px;
+}
+.tourismes .champs-texte1 button{
+    width: 184px;
+    height: Fixed (48px)px;
+    padding: 8px 16px 8px 16px;
+    gap: 16px;
+    border-radius: 4px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #FFFFFF;
+    color: #07689F;
+    border: 2px solid #07689F; 
+
+
+}
+
+.tourismes1 .tourisme .champs-texte1{
+    display: flex;
+    gap: 20px;
+}
+.tourismes1 .tourisme .champs-texte1 button{
+    width: 68px;
+    height: 60px;
+    padding: 4px 0px 0px 0px;
+    gap: 4px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #07689F;
+    color: #FFFFFF;
+
+}
+.tourismes1 .tourisme .champs-texte1 .champs0{
+    width: 508px;
+    height: 45px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.tourismes1 .tourisme button{
+    width: 500px;
+    height: Fixed (40px)px;
+    padding: 8px 16px 8px 16px;
+    gap: 16px;
+    border-radius: 4px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #FFFFFF;
+    color: #07689F;
+    border: 1px solid #07689F
+
+}
+.tourismes1 .tourisme{
+    margin-left: 90px;
+}
+.tourismes1{
+    display: flex;
+
+}
+.tourismes1 .tourisme1 .tourisme0 img{
+    width: 290px;
+    height: 222px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px; 
+
+}
