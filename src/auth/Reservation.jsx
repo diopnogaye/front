@@ -37,7 +37,7 @@ function Reservation() {
                  <div className="champ">
                     <li>votre compte</li>
                  <div className="champp">
-                    <li>Anna Carinna</li>
+                    <li>Oumy Thiam</li>
                  </div>
                  </div>
                    </ul>
@@ -490,7 +490,7 @@ function Reservation() {
             <p>Copyright EasySet24</p>
               </div>
               <div className="section">
-           <img src="./src/assets/Icon.png " alt="" className='image-wifi'/>
+           <img src="./src/assets/message.png " alt="" className='image-wifi'/>
             <p>easyset24@gmail.com</p>
               </div>
               <p>"EasySet24: Seamless Journeys, Unrivalled Travel Wisdom!"</p>

@@ -1,0 +1,50 @@
+.finales .finale1 .champs-texte1{
+    display: flex;
+    gap: 10px;
+}
+.finales .finale1 h1{
+    width: 151px;
+    height: 26px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+    
+}
+.finales .finale1 p{
+    width: 299px;
+    height: 14px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #565656;
+    
+}
+
+.finales .finale1 .champs-texte1 .champp{
+    width: 143px;
+    height: 18px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+.finales .finale1 .champs-texte1 .champp

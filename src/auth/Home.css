@@ -1,0 +1,310 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .home {
+    width: 100%;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .header-left .logo {
+    width: 50px;
+  }
+  
+  .header-center .search-bar {
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .header-right .btn {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .nav-btn {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .nav-btn.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 50px 0;
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+  }
+  
+  .hero h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .search-container input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .search-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  
+  .special-offers, .explore-stays, .reviewed-offers {
+    padding: 50px 20px;
+  }
+  
+  .special-offers h2, .explore-stays h2, .reviewed-offers h2 {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .offer-cards, .destination-cards, .reviewed-cards {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+  }
+  
+  .offer-card, .destination-card, .reviewed-card {
+    min-width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .offer-card img, .destination-card img, .reviewed-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .destination-info {
+    padding-left: 19px;
+  }
+
+  
+  
+  .offer-btn, .reviewed-info p {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .hero {
+    position: relative;
+    height: 70vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 1;
+  }
+
+  .footer {
+    background-color: #f8f8f8;
+    padding: 40px 20px;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-column {
+    flex: 1;
+    min-width: 150px;
+    margin: 20px;
+  }
+  
+  .footer-column h3 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-column a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footer-column a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  
+  .footer-payment img {
+    max-height: 30px;
+    margin: 0 10px;
+  }
+  
+  .footer-social a {
+    color: #333;
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  
+  .footer-subscribe {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-subscribe input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .footer-subscribe button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .footer-info {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .footer-info p {
+    margin: 0;
+  }
+  .inspiration-section {
+    position: relative;
+    height: 400px; /* Ajustez selon vos besoins */
+    background-image: url('/src/assets/Dakar (1).jpg'); /* Remplacez par le chemin de votre image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .read-more {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .read-more:hover {
+    background-color: white;
+    color: black;
+  }
+    

@@ -1,0 +1,143 @@
+.continus .continu .champs-texte1{
+    display: flex;
+    width: 146px;
+    height: 22px;
+    gap: 0px;
+    opacity: 0px;
+   
+}
+.continus .continu .champs-texte1 .champs{
+    width: 146px;
+    height: 22px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;    
+
+}
+.continus .continu .champs-texte1 .champs0{
+    width: 146px;
+    height: 22px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #07689F;
+}
+.continus .continu p{
+    width: 46px;
+    height: 22px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+.continus .continu .champs-texte1 .champp{
+    width: 16px;
+    height: 16px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.continus .continu .champs-texte1 .champp0{
+    width: 168.5px;
+    height: 17px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #565656;
+}
+
+.continus .continu .champs-texte1 .champps{
+    width: 132px;
+    height: 22px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #07689F;
+}
+
+.continus .continu .champs-texte1 .champps0{
+    width: 20px;
+    height: 20px;
+    padding: 0px 5px 0px 5px;
+    gap: 0px;
+    opacity: 0px;
+    padding: 5px;
+
+}
+ .continue{
+    display: flex;
+    gap: 20px;
+}
+.continus .continu{
+    padding: 15px;
+}
+.continus .continue .img-contenu{
+    width: 201px;
+    height: 232px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 4px;
+    opacity: 0px;  
+    margin-left: 10px;  
+}
+.continus{
+    width: 397px;
+    height: 242px;
+    padding: 8px 0px 0px 0px;
+    gap: 29px;
+    border-radius: 8px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    color: #FFFFFF;
+    border: 1px solid #D9D9D9;
+
+}
+
+.continues{
+    display: flex;
+    width: 1,224px;
+    height: Hug (248px)px;
+    top: 308px;
+    left: 108px;
+    gap: 20px;
+    opacity: 0px;
+    margin: 60px;
+
+}

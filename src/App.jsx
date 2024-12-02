@@ -14,6 +14,9 @@ import Flight from './auth/Flight';
 import HotelResult from './auth/HotelResult';
 import Tourisme from './auth/Tourisme';
 import Tourismecontinu from './auth/tourismecontinu';
+import Fin from './auth/fin';
+import Finalreservation from './auth/Finalreservation';
+import Home from './auth/Home';
 
 
 function App() {
@@ -32,6 +35,9 @@ function App() {
       <Route path="/HotelResult" element={<HotelResult />} />
       <Route path="/Tourisme" element={<Tourisme />} />
       <Route path="/Tourismecontinu" element={<Tourismecontinu />} />
+      <Route path="/Fin" element={<Fin />} />
+      <Route path="/Finalreservation" element={<Finalreservation />} />
+      <Route path="/" element={<Home />} />
     </Routes>
   );
 }

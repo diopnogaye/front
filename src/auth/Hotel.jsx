@@ -37,7 +37,7 @@ function Hotel() {
                          <div className="champ">
                           <li>votre compte</li>
                          <div className="champp">
-                          <li>Anna Carinna</li>
+                          <li>Oumy Thiam</li>
                           </div>
                           </div>
                       </ul>
@@ -53,14 +53,41 @@ function Hotel() {
           <li><button name='Apartment' className='Apartment'>Appartement</button></li><br></br>
           <li><button name='Camper' className='Camper'>Villa</button></li><br></br>
           </ul>
-        </nav><br></br><br></br><br></br>
-         <div className="junbo">
-                <div className="row">
-                <img src="./src/assets/Fully.png " alt="" className='image-wifia'/>
-                           
-                        </div>
-                    </div>
-                <div className="sants">
+        </nav><br></br><br></br><br></br><br></br>
+              <div className="hatels">
+               <div className="hotel">
+               <div className='champs-texte1'>
+                <div className='champp'>
+                <label htmlFor="">our hotel is currently fully booked !</label>
+               </div>
+                <div className='champp0'>
+                <img src="./src/assets/xx.png" alt="" />
+                </div>
+               </div>
+               <h1>We apologize for the inconvenience .</h1><br></br>
+               <div className='champs-texte'>
+                <div className='champp'>
+                <label htmlFor="">Thank you for your understanding!</label>
+               </div>
+                <div className='champp0'>
+                <label htmlFor="">Checking back with us in a few days as our availability can change quickly </label>
+                </div>
+               </div><br></br><br></br><br></br>
+               <div className='champs-texte'>
+                <div className='champp'>
+                <label htmlFor="">Subscribe For Receiving Room availability Notification </label>
+               </div>
+                <div className='champp0'>
+                <label htmlFor="">During your Time expectations. </label>
+                </div>
+               </div><br></br>
+               <button name='Room Availability Notification' className='Room Availability Notification'>Room Availability Notification</button>
+               </div>
+              </div><br></br><br></br><br></br>
+
+              {/* fin footer */}
+
+              <div className="sants">
                         <div className="sante">
                         <div className="sant">
                           <h1>Go Further With The EasySet24 App</h1>
@@ -180,7 +207,7 @@ function Hotel() {
             <p>Copyright EasySet24</p>
               </div>
               <div className="section">
-           <img src="./src/assets/Icon.png " alt="" className='image-wifi'/>
+           <img src="./src/assets/message.png " alt="" className='image-wifi'/>
             <p>easyset24@gmail.com</p>
               </div>
               <p>"EasySet24: Seamless Journeys, Unrivalled Travel Wisdom!"</p>
@@ -193,6 +220,7 @@ function Hotel() {
             <p>+44 20 7123 4567</p>
               </div>
        </div>
+           
     </div>
   )
 }

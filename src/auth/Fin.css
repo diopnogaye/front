@@ -1,0 +1,102 @@
+.header .container p{
+    width: 409px;
+    height: 33px;
+    top: 53px;
+    left: 262px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #565656;
+}
+.pages .page .pagee .champs-texte1{
+    display: flex;
+    gap: 4px;
+}
+.pages .page .pagee .champs-texte1 .champp0{
+    width: 174px;
+    height: 22px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+.pages .page .pagee .champs-texte1 .champp{
+    width: 16px;
+    height: 16px;
+    gap: 0px;
+    opacity: 0px;  
+} 
+
+.pages .page .pagee {
+    width: 200px;
+    height: Fixed (48px)px;
+    top: 287px;
+    left: 601px;
+    padding: 8px 16px 8px 16px;
+    gap: 16px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    background: #07689F;
+    margin-left: 550px;
+}
+
+.pages .page h1{
+    width: 201px;
+    height: 140px;
+    top: 35px;
+    left: 620px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 140px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #D9D9D980;  
+    margin-left: 600px; 
+
+}
+
+.pages .page p{
+    width: 409px;
+    height: 33px;
+    top: 205px;
+    left: 516px;
+    gap: 0px;
+    opacity: 0.7px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-left: 500px;
+}
+.pages .page{
+        background: url("./src/assets/maggie.jpg ") no-repeat black bottom center;
+        color: white;
+        padding-top: 200px;
+        background-size: cover;
+        width: 100%;
+        height: 443px;
+        top: 132px;
+        gap: 0px;
+        opacity: 0px;
+
+}
