@@ -292,7 +292,7 @@
     border: 1px solid #D9D9D9;   
 }
 .jumboos{
-        background: url("./src/assets/reserve.jpg ") no-repeat black bottom center;
+        background: url("./src/assets/lamatin.jpeg") no-repeat black bottom center;
         color: white;
         padding-top: 200px;
         background-size: cover;
@@ -368,7 +368,7 @@
 }
 
 .maits{
-    background: url("./src/assets/carte.png ") no-repeat black bottom center;
+    background: url("./src/assets/senegalMAP.jpg") no-repeat black bottom center;
     color: white;
     padding-top: 200px;
     background-size: cover;
@@ -433,7 +433,7 @@
 
 }
 .reservess{
-    background: url("./src/assets/pexelphoto.jpg ") no-repeat black bottom center;
+    background: url("./src/assets/MUSEE.jpeg ") no-repeat black bottom center;
     color: white;
     padding-top: 200px;
     background-size: cover;
@@ -444,7 +444,7 @@
     opacity: 0px;
 }
 .reservess1{
-    background: url("./src/assets/pexelphoto2.jpg ") no-repeat black bottom center;
+    background: url("./src/assets/radisson4.jpg ") no-repeat black bottom center;
     color: white;
     padding-top: 200px;
     background-size: cover;
@@ -530,7 +530,7 @@
     margin-left: 75px;
 }
 .makes .make1{
-    background: url("./src/assets/pexelphoto10.jpg ") no-repeat black bottom center;
+    background: url("./src/assets/GOREE.jpg ") no-repeat black bottom center;
     color: white;
     padding-top: 200px;
     background-size: cover; 
@@ -543,7 +543,7 @@
 
 }
 .makes .make2{
-    background: url("./src/assets/Rectangle 3.png ") no-repeat black bottom center;
+    background: url("./src/assets/R (1).jpeg") no-repeat black bottom center;
     color: white;
     padding-top: 200px;
     background-size: cover; 
@@ -614,7 +614,7 @@ linear-gradient(0deg, rgba(0, 0, 0, 0.5) 17.36%, rgba(0, 0, 0, 0) 92.82%);
 
  }
  .makes .make3{
-    background: url("./src/assets/pexelphoto12.jpg ") no-repeat black bottom center;
+    background: url("./src/assets/DKROU.jpeg ") no-repeat black bottom center;
     color: white;
     padding-top: 200px;
     background-size: cover; 
@@ -627,7 +627,7 @@ linear-gradient(0deg, rgba(0, 0, 0, 0.5) 17.36%, rgba(0, 0, 0, 0) 92.82%);
 
 }
 .makes .make4{
-    background: url("./src/assets/pexelphoto9.jpg ") no-repeat black bottom center;
+    background: url("./src/assets/R (1).jpeg ") no-repeat black bottom center;
     color: white;
     padding-top: 200px;
     background-size: cover; 
@@ -640,7 +640,7 @@ linear-gradient(0deg, rgba(0, 0, 0, 0.5) 17.36%, rgba(0, 0, 0, 0) 92.82%);
 
 }
 .makes .make5{
-    background: url("./src/assets/pexelphoto2.jpg ") no-repeat black bottom center;
+    background: url("./src/assets/R.jpeg") no-repeat black bottom center;
     color: white;
     padding-top: 200px;
     background-size: cover; 
@@ -653,7 +653,7 @@ linear-gradient(0deg, rgba(0, 0, 0, 0.5) 17.36%, rgba(0, 0, 0, 0) 92.82%);
 
 }
 .makes .make6{
-    background: url("./src/assets/pexelphoto13.jpg ") no-repeat black bottom center;
+    background: url("./src/assets/STADES.jpeg ") no-repeat black bottom center;
     color: white;
     padding-top: 200px;
     background-size: cover; 

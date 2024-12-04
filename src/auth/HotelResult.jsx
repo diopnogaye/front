@@ -3,57 +3,22 @@ import './HotelResult.css';import './Hotel.css';
 function HotelResult() {
   return (
     <div>
-       <header className='header'>
-                 <div className='container'>
-                 <div className='header-content'>
-                   <img src="./src/assets/logo.jpg" alt="" />
-                 <div className="recherch">
-                 <div className="recherche">
-                     <input type="text" placeholder="" />
-                 </div>
-                 <div className="recherche">
-                 <button type="submit"><img src="./src/assets/recherche.png" alt=""/></button>
-                 </div>
-                 </div>
-                 <ul className='barre-navigation'>
-                    <li>
-                    <img src="./src/assets/logo senegal.png" alt="" />   
-                    </li>
-                    <li>
-                    <img src="./src/assets/dollar.jpg" alt="" />
-                    </li>
-                    <li>
-                    <img src="./src/assets/point d'interrogation.jpg" alt="" />
-                    </li>
-                    <li>
-                    <img src="./src/assets/like.png" alt="" />
-                    </li>
-                    <li>
-                    <img src="./src/assets/telephone.png" alt="" />
-                    </li>
-                    <li>
-                    <img src="./src/assets/Ellipse.png" alt=""  className='ellipse'/>
-                    </li>
-                 <div className="champ">
-                    <li>votre compte</li>
-                 <div className="champp">
-                    <li>Oumy Thiam</li>
-                 </div>
-                 </div>
-                   </ul>
-                 </div>
-                 </div>
-              </header><br></br><br></br><br></br>
-                 <nav className="navigation">
-                  <ul>
-                    <li><button name='Tril' className='Voyages'>Voyages</button></li><br></br> 
-                    <li><button name='%Deals' className='%Deals'>%Deals</button></li><br></br>
-                    <li><button name='lHotelt' className='Hotelt'>Hotel</button></li><br></br>
-                    <li><button name='Flight' className='Flight'>Tourisme</button></li><br></br>
-                    <li><button name='Apartment' className='Apartment'>Appartement</button></li><br></br>
-                    <li><button name='Camper' className='Camper'>Villa</button></li><br></br>
-                 </ul>
-                 </nav><br></br><br></br><br></br><br></br>
+       <header className="header">
+        <div className="header-left">
+          <img src="src/assets/logo.png" alt="Logo" className="logo" />
+        </div>
+        <div className="header-center">
+          <input type="text" placeholder="Rechercher" className="search-bar" />
+        </div>
+        
+      </header><br></br><br></br><br></br>
+      <nav className="nav">
+  <a href="/Reservation" className="nav-btn">Destination</a>
+  <a href="/HotelResult" className="nav-btn active">Reservation</a>
+  <a href="/" className="nav-btn ">Accueil</a>
+  <a href="/About" className="nav-btn">A propos</a>
+  <a href="/Tourisme" className="nav-btn">Communauté</a>
+</nav><br></br><br></br><br></br><br></br>
 
                  <div className="places1">
                   <h1>Où se trouve votre prochain endroit de rêve ?</h1>

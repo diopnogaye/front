@@ -17,6 +17,8 @@ import Tourismecontinu from './auth/tourismecontinu';
 import Fin from './auth/fin';
 import Finalreservation from './auth/Finalreservation';
 import Home from './auth/Home';
+import 'font-awesome/css/font-awesome.min.css';
+
 
 
 function App() {

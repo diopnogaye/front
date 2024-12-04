@@ -1,3 +1,86 @@
+/* En-tête */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-left .logo {
+    width: 100px;
+  }
+  
+  .header-center .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar {
+    padding: 10px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s ease;
+  }
+  
+  .search-bar:focus {
+    border-color: #0056b3;
+  }
+  
+  .search-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .search-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .nav-btn {
+    padding: 10px 20px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  }
+  
+  .nav-btn:hover {
+    background-color: #007bff;
+    color: white;
+    transform: scale(1.05);
+  }
+  
+  .nav-btn.active {
+    background-color: #007bff;
+    color: white;
+    border: 2px solid #0056b3;
+  }
+  
+  .nav-btn:focus {
+    outline: none;
+  }
+  
+
+
 .mine .champs-texte1{
     display: flex;
     width: Hug (182px)px;
@@ -198,3 +281,15 @@
 .serves{
      margin-left: 100px;
 }
+
+.footer-social a {
+  color: #07689F; /* Changez la couleur selon vos préférences */
+  font-size: 24px; /* Taille de l'icône */
+  margin: 0 10px; /* Espacement entre les icônes */
+  text-decoration: none; /* Enlever les soulignements */
+}
+
+.footer-social a:hover {
+  color: #07689F; /* Couleur au survol des icônes */
+}
+

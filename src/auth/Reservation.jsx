@@ -1,121 +1,44 @@
-import React from 'react'
+import React,{ useState }from 'react'
 import './reservation.css';
 function Reservation() {
+  const [searchQuery, setSearchQuery] = useState('');
+  const handleSearch = () => {
+    if (searchQuery.trim() !== '') {
+      console.log('Recherche pour:', searchQuery);
+    }
+  };
   return (
     <div>
-      <header className='header'>
-                 <div className='container'>
-                 <div className='header-content'>
-                   <img src="./src/assets/logo.jpg" alt="" />
-                 <div className="recherch">
-                 <div className="recherche">
-                     <input type="text" placeholder="" />
-                 </div>
-                 <div className="recherche">
-                 <button type="submit"><img src="./src/assets/recherche.png" alt=""/></button>
-                 </div>
-                 </div>
-                 <ul className='barre-navigation'>
-                    <li>
-                    <img src="./src/assets/logo senegal.png" alt="" />   
-                    </li>
-                    <li>
-                    <img src="./src/assets/dollar.jpg" alt="" />
-                    </li>
-                    <li>
-                    <img src="./src/assets/point d'interrogation.jpg" alt="" />
-                    </li>
-                    <li>
-                    <img src="./src/assets/like.png" alt="" />
-                    </li>
-                    <li>
-                    <img src="./src/assets/telephone.png" alt="" />
-                    </li>
-                    <li>
-                    <img src="./src/assets/Ellipse.png" alt=""  className='ellipse'/>
-                    </li>
-                 <div className="champ">
-                    <li>votre compte</li>
-                 <div className="champp">
-                    <li>Oumy Thiam</li>
-                 </div>
-                 </div>
-                   </ul>
-                 </div>
-                 </div>
-              </header><br></br><br></br><br></br>
-                 <nav className="navigation">
-                  <ul>
-                    <li><button name='Tril' className='Tril'>Voyages</button></li><br></br> 
-                    <li><button name='%Deals' className='%Deals'>%Deals</button></li><br></br>
-                    <li><button name='lHotelt' className='Hotelt'>Hotel</button></li><br></br>
-                    <li><button name='Flight' className='Flight'>Tourisme</button></li><br></br>
-                    <li><button name='Apartment' className='Apartment'>Appartement</button></li><br></br>
-                    <li><button name='Camper' className='Camper'>Villa</button></li><br></br>
-                 </ul>
-                 </nav><br></br><br></br><br></br><br></br>
+      <header className="header">
+        <div className="header-left">
+          <img src="src/assets/logo.png" alt="Logo" className="logo" width={100} />
+        </div>
+        <div className="header-center">
+          <div className="search-container">
+            <input
+              type="text"
+              placeholder="Rechercher"
+              className="search-bar"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)} // Mettre à jour l'état à chaque changement
+            />
+            <button className="search-btn" onClick={handleSearch}>rechecher</button>
+          </div>
+        </div>
+      </header>
+
+      <nav className="nav">
+        <a href="/Reservation" className="nav-btn active">Destination</a>
+        <a href="/HotelResult" className="nav-btn">Réservation</a>
+        <a href="/" className="nav-btn ">Accueil</a>
+        <a href="/About" className="nav-btn ">À propos</a>
+        <a href="/Tourisme" className="nav-btn">Communauté</a>
+      </nav>
+<br></br><br></br><br></br><br></br>
                  <div className="places">
                   <h1>Where is your Next Dream Place?</h1>
                   <p>Find exclusive Genius rewards in every corner of the world!</p><br></br><br></br>
-                  <ul className="place">
-                    <li>Place</li>
-                    <li>ViP</li>
-                    <li>Passengers - Room Condition</li>
-                    <li>Check In  -Check Out</li>
-                  </ul><br></br>
-                  <div className="placee">
-                   <div className="plas">
-                  <div className='champs-texte11'>
-                  <div className='champs'>
-                   <img src="./src/assets/hotel.png " alt=""/>
-                    </div>
-                    <div className='champs0'>
-                    <label htmlFor="">Gutenberg</label>
-                      </div>
-                    </div>
-                    </div>
-                    <div className="plas1">
-                    <div className='champs-texte12'>
-                  <div className='champs'>
-                  <label htmlFor="">Long Lasting</label>
-                    </div>
-                    <div className='champs0'>
-                    <img src="./src/assets/hotel1.png " alt=""/>
-                      </div>
-                    </div>
-                    </div>
-                    <div className="plas2">
-                    <div className="tous">
-                    <div className='champs-texte15'>
-                  <div className='champs'>
-                   <img src="./src/assets/hotel2.png " alt=""/>
-                    </div>
-                    <div className='champs0'>
-                    <label htmlFor="">2 Adults - 3 Children </label>
-                      </div>
-                    </div>
-                    <div className='champs-texte15'>
-                  <div className='champs'>
-                  <label htmlFor="">Two Rooms</label>
-                    </div>
-                    <div className='champs0'>
-                    <img src="./src/assets/hotel1.png " alt=""/>
-                      </div>
-                    </div>
-                    </div>
-                    </div>
-                    <div className="plas3">
-                    <div className='champs-texte14'>
-                  <div className='champs'>
-                   <img src="./src/assets/hotel4.png " alt=""/>
-                    </div>
-                    <div className='champs0'>
-                    <label htmlFor="">18 Dec 2023 - 23 Dec 2023  </label>
-                      </div>
-                    </div>
-                    </div>
-                    <button name='Search' className='Search'>Search</button>
-                    </div>
+                 <br></br>
                  </div><br></br><br></br><br></br>
                  <div className="jumboos">
                   <div className="jumboo">
@@ -156,19 +79,18 @@ function Reservation() {
                   <div className="maitss">
                   <div className="maits1">
                   <div className="mait">
-                  <img src="./src/assets/image 1(1).png " alt=""/>
+                  <img src="./src/assets/Dakar (1).jpg" alt=""width={180}/>
                   <div className="mait1">
-                    <h3>Belgium</h3>
-                    <p>Bruxelles Gare du Midi</p>
+                    <h3>Dakar</h3>
                   </div>
                   </div>
                  </div><br></br>
                  <div className="maits1">
                   <div className="mait">
-                  <img src="./src/assets/image 1(2).png " alt=""/>
+                  <img src="./src/assets/ecolodge-senegal-sine-saloum-hotel-bazouk-saloum-1024x768.jpeg " alt=""width={160}/>
                   <div className="mait1">
-                    <h3>Amsterdam</h3>
-                    <p>Bunk</p>
+                    <h3>Saloum</h3>
+                    <p></p>
                   </div>
                   </div>
                  </div>
@@ -176,10 +98,10 @@ function Reservation() {
                  <div className="maitss2">
                  <div className="maits1">
                   <div className="mait">
-                  <img src="./src/assets/image 1(3).png " alt=""/>
+                  <img src="./src/assets/R.jpeg " alt=""width={210} height={110}/>
                   <div className="mait1">
-                    <h3>Nepal</h3>
-                    <p>Hyatt Regency K</p>
+                    <h3>Saly</h3>
+                    <p></p>
                   </div>
                   </div>
                   </div>
@@ -187,19 +109,18 @@ function Reservation() {
                  <div className="maitss1">
                   <div className="maits1">
                   <div className="mait">
-                  <img src="./src/assets/image 1(4).png " alt=""/>
+                  <img src="./src/assets/KEDOUGOU.jpeg" alt="" width={180}/>
                   <div className="mait1">
-                    <h3>New Jersey</h3>
-                    <p>Windsor</p>
+                    <h3>Kedougou</h3>
+                    <p></p>
                   </div>
                   </div>
                  </div><br></br>
                  <div className="maits1">
                   <div className="mait">
-                  <img src="./src/assets/image 1(5).png " alt=""/>
+                  <img src="./src/assets/st louis.jpeg" alt="" width={180}/>
                   <div className="mait1">
-                    <h3>Gothenburg</h3>
-                    <p>First Hotel G</p>
+                    <h3>Saint-Louis</h3>
                   </div>
                   </div>
                  </div>
@@ -388,127 +309,92 @@ function Reservation() {
                        </div>
                        </div>
                        <footer className="footer">
-                 <div className="footer-content">
-          <div className="footer-section about">
-            <h3>About Us</h3>
+        <div className="footer-links">
+          <div className="footer-column">
+            <h3>À propos de nous</h3>
             <ul>
-              <li>Our Story</li>
-              <li>Work With Us</li>
-              <li>Press & Media</li>
-              <li>Privacy & Security</li>
+              <li><a href="#">Notre histoire</a></li>
+              <li><a href="#">Travailler avec nous</a></li>
+              <li><a href="#">Presse et médias</a></li>
+              <li><a href="#">Confidentialité et sécurité</a></li>
             </ul>
           </div>
-          <div className="footer-section offers">
-            <h3>We Offer</h3>
+          <div className="footer-column">
+            <h3>Nos offres</h3>
             <ul>
-              <li>Trip Sponsorship</li>
-              <li>Last Minutes Flights</li>
-              <li>Best Deals</li>
-              <li>AI-Driven Search</li>
+              <li><a href="#">Guides touristiques</a></li>
+              <li><a href="#">Offres exclusives</a></li>
+              <li><a href="#">Réservations faciles</a></li>
+              <li><a href="#">Assistance personnalisée</a></li>
             </ul>
           </div>
-          <div className="footer-section headquarters">
-            <h3>Headquarters</h3>
+          <div className="footer-column">
+            <h3>Destinations phares</h3>
             <ul>
-              <li>England</li>
-              <li>France</li>
-              <li>Norway</li>
-              <li>Iceland</li>
+              <li><a href="#">Dakar</a></li>
+              <li><a href="#">Île de Gorée</a></li>
+              <li><a href="#">Saly-Portudal</a></li>
+              <li><a href="#">Saint-Louis</a></li>
+              <li><a href="#">Ziguinchor</a></li>
+              <li><a href="#">Casamance</a></li>
             </ul>
           </div>
-          <div className="footer-section blogs">
-            <h3>Travel Blogs</h3>
+          <div className="footer-column">
+            <h3>Blogs de voyage</h3>
             <ul>
-              <li>Full Travel Guide</li>
-              <li>Short Travel Guide</li>
-              <li>Pet Travel Guide</li>
-              <li>Sales Travel Guide</li>
+              <li><a href="#">Découvrez Dakar</a></li>
+              <li><a href="#">Voyage en Casamance</a></li>
+              <li><a href="#">Héritage de Saint-Louis</a></li>
+              <li><a href="#">Expédition au Lac Rose</a></li>
             </ul>
           </div>
-          <div className="footer-section activities">
-            <h3>Activities</h3>
+          <div className="footer-column">
+            <h3>Activités</h3>
             <ul>
-              <li>Tour Leading</li>
-              <li>Cruising & Sailing</li>
-              <li>Camping</li>
-              <li>Kayaking</li>
+              <li><a href="#">Safari au Parc Niokolo-Koba</a></li>
+              <li><a href="#">Balades en pirogue</a></li>
+              <li><a href="#">Randonnée dans les collines</a></li>
+              <li><a href="#">Détente sur les plages</a></li>
             </ul>
           </div>
-          <div className="footer-section service">
+          <div className="footer-column">
             <h3>Service</h3>
             <ul>
-              <li>Report Error</li>
-              <li>Ask Online</li>
-              <li>Travel Insurance</li>
+              <li><a href="#">Signaler une erreur</a></li>
+              <li><a href="#">Assistance en ligne</a></li>
+              <li><a href="#">Assurance voyage</a></li>
             </ul>
           </div>
         </div>
+        <div className="footer-bottom">
+          <div className="footer-social">
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-linkedin"></i>
+            </a>
+            <a href="https://t.me" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-telegram"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-instagram"></i>
+            </a>
+          </div>
+          <div className="footer-subscribe">
+            <input type="email" placeholder="Entrez votre email" />
+            <button>S'inscrire</button>
+          </div>
+        </div>
+        <div className="footer-info">
+          <p>© Copyright SEN TRAVEL | Sentravel@Gmail.Com | "SEN TRAVEL : Découvrez la magie du Sénégal !" | Avenue Cheikh Anta Diop, Dakar | +221 33 123 4567</p>
+        </div>
       </footer>
-      <div className="foots">
-        <div className="foote">
-        <div className="foot">
-        <img src="./src/assets/visa.png " alt="" className='image-wifi'/>
-        </div>
-        <div className="foot">
-        <img src="./src/assets/Amex.png " alt="" className='image-wifi'/>
-        </div>
-        <div className="foot">
-        <img src="./src/assets/Master.png " alt="" className='image-wifi'/>
-        </div>
-        <div className="foot">
-        <img src="./src/assets/Paypal.png " alt="" className='image-wifi'/>
-        </div>
+      
       </div>
-      <div className="footee">
-        <div className="foot">
-        <img src="./src/assets/li.png " alt="" className='image-wifi'/>
-        </div>
-        <div className="foot">
-        <img src="./src/assets/li1.png " alt="" className='image-wifi'/>
-        </div>
-        <div className="foot">
-        <img src="./src/assets/li2.png " alt="" className='image-wifi'/>
-        </div>
-        <div className="foot">
-        <img src="./src/assets/Facebook.png " alt="" className='image-wifi'/>
-        </div>
-        <div className="foot">
-        <img src="./src/assets/instagram.png " alt="" className='image-wifi'/>
-        </div>
-        </div>
-        <div className="foote">
-        <div className='foot'>
-           <label htmlFor="">Email</label> <br />
-           <input type="text" name='email' placeholder='easyset24@gmail.com'/>
-            <button name='Subscribe' className='Subscribe'>Subscribe</button>
-        </div>
-       </div>
-       </div><br></br><br></br>
-       <div className="foos">
-       <div className="section">
-           <img src="./src/assets/Icon.png " alt="" className='image-wifi'/>
-            <p>Copyright EasySet24</p>
-              </div>
-              <div className="section">
-           <img src="./src/assets/message.png " alt="" className='image-wifi'/>
-            <p>easyset24@gmail.com</p>
-              </div>
-              <p>"EasySet24: Seamless Journeys, Unrivalled Travel Wisdom!"</p>
-              <div className="section">
-           <img src="./src/assets/local.png " alt="" className='image-wifi'/>
-            <p>123 Oxford Street,London</p>
-              </div>
-              <div className="section">
-           <img src="./src/assets/telephone.png " alt="" className='image-wifi'/>
-            <p>+44 20 7123 4567</p>
-              </div>
-       </div>
-                  
-
-                 
-
-                 
-    </div>
   )
 }
 

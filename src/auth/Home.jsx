@@ -20,7 +20,7 @@ const Home = () => {
       <nav className="nav">
   <a href="/Reservation" className="nav-btn">Destination</a>
   <a href="/HotelResult" className="nav-btn">Reservation</a>
-  <a href="/Home" className="nav-btn active">Accueil</a>
+  <a href="/" className="nav-btn active">Accueil</a>
   <a href="/About" className="nav-btn">A propos</a>
   <a href="/Tourisme" className="nav-btn">Communauté</a>
 </nav>
@@ -159,83 +159,89 @@ const Home = () => {
       </div>
     </div>
 
-      <footer className="footer">
+    <footer className="footer">
         <div className="footer-links">
           <div className="footer-column">
-            <h3>About Us</h3>
+            <h3>À propos de nous</h3>
             <ul>
-              <li><a href="#">Our Story</a></li>
-              <li><a href="#">Work With Us</a></li>
-              <li><a href="#">Press & Media</a></li>
-              <li><a href="#">Privacy & Security</a></li>
+              <li><a href="#">Notre histoire</a></li>
+              <li><a href="#">Travailler avec nous</a></li>
+              <li><a href="#">Presse et médias</a></li>
+              <li><a href="#">Confidentialité et sécurité</a></li>
             </ul>
           </div>
           <div className="footer-column">
-            <h3>We Offer</h3>
+            <h3>Nos offres</h3>
             <ul>
-              <li><a href="#">Trip Sponsorship</a></li>
-              <li><a href="#">Last Minutes Flights</a></li>
-              <li><a href="#">Best Deals</a></li>
-              <li><a href="#">AI-Driven Search</a></li>
+              <li><a href="#">Guides touristiques</a></li>
+              <li><a href="#">Offres exclusives</a></li>
+              <li><a href="#">Réservations faciles</a></li>
+              <li><a href="#">Assistance personnalisée</a></li>
             </ul>
           </div>
           <div className="footer-column">
-            <h3>Headquarters</h3>
+            <h3>Destinations phares</h3>
             <ul>
-              <li><a href="#">England</a></li>
-              <li><a href="#">France</a></li>
-              <li><a href="#">Canada</a></li>
-              <li><a href="#">Iceland</a></li>
+              <li><a href="#">Dakar</a></li>
+              <li><a href="#">Île de Gorée</a></li>
+              <li><a href="#">Saly-Portudal</a></li>
+              <li><a href="#">Saint-Louis</a></li>
+              <li><a href="#">Ziguinchor</a></li>
+              <li><a href="#">Casamance</a></li>
             </ul>
           </div>
           <div className="footer-column">
-            <h3>Travel Blogs</h3>
+            <h3>Blogs de voyage</h3>
             <ul>
-              <li><a href="#">Bali Travel Guide</a></li>
-              <li><a href="#">Sri Travel Guide</a></li>
-              <li><a href="#">Peru Travel Guide</a></li>
-              <li><a href="#">Swiss Travel Guide</a></li>
+              <li><a href="#">Découvrez Dakar</a></li>
+              <li><a href="#">Voyage en Casamance</a></li>
+              <li><a href="#">Héritage de Saint-Louis</a></li>
+              <li><a href="#">Expédition au Lac Rose</a></li>
             </ul>
           </div>
           <div className="footer-column">
-            <h3>Activities</h3>
+            <h3>Activités</h3>
             <ul>
-              <li><a href="#">Tour Leading</a></li>
-              <li><a href="#">Cruising & Sailing</a></li>
-              <li><a href="#">Camping</a></li>
-              <li><a href="#">Kayaking</a></li>
+              <li><a href="#">Safari au Parc Niokolo-Koba</a></li>
+              <li><a href="#">Balades en pirogue</a></li>
+              <li><a href="#">Randonnée dans les collines</a></li>
+              <li><a href="#">Détente sur les plages</a></li>
             </ul>
           </div>
           <div className="footer-column">
             <h3>Service</h3>
             <ul>
-              <li><a href="#">Report Error</a></li>
-              <li><a href="#">Ask Online</a></li>
-              <li><a href="#">Travel Insurance</a></li>
+              <li><a href="#">Signaler une erreur</a></li>
+              <li><a href="#">Assistance en ligne</a></li>
+              <li><a href="#">Assurance voyage</a></li>
             </ul>
           </div>
         </div>
         <div className="footer-bottom">
-          <div className="footer-payment">
-            <img src="/assets/visa.png" alt="Visa" />
-            <img src="/assets/amex.png" alt="American Express" />
-            <img src="/assets/mastercard.png" alt="MasterCard" />
-            <img src="/assets/paypal.png" alt="PayPal" />
-          </div>
           <div className="footer-social">
-            <a href="#"><i className="fab fa-linkedin"></i></a>
-            <a href="#"><i className="fab fa-telegram"></i></a>
-            <a href="#"><i className="fab fa-twitter"></i></a>
-            <a href="#"><i className="fab fa-facebook"></i></a>
-            <a href="#"><i className="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-linkedin"></i>
+            </a>
+            <a href="https://t.me" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-telegram"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-instagram"></i>
+            </a>
           </div>
           <div className="footer-subscribe">
-            <input type="email" placeholder="Enter Your Email" />
-            <button>Subscribe</button>
+            <input type="email" placeholder="Entrez votre email" />
+            <button>S'inscrire</button>
           </div>
         </div>
         <div className="footer-info">
-          <p>© Copyright EasySet24 | Easyset24@Gmail.Com | "EasySet24: Seamless Journeys, Unrivalled Travel Wisdom!" | 123 Oxford Street, London | +44 20 7123 4567</p>
+          <p>© Copyright SEN TRAVEL | Sentravel@Gmail.Com | "SEN TRAVEL : Découvrez la magie du Sénégal !" | Avenue Cheikh Anta Diop, Dakar | +221 33 123 4567</p>
         </div>
       </footer>
     </div>
